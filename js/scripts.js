@@ -2,12 +2,14 @@
 function addTask(){
     // título da tarefa
     const taskTitle = document.querySelector('#task-title').value //pegamos o valor que será enviado nesse input
+    console.log(taskTitle)
 
     if(taskTitle) {
         //clona template
-        const template = document.querySelector('.template')
-
+        const template = document.querySelector('.template') //!!!!Não estou conseguindo pegar o 'template'
+        
         const newTask = template.cloneNode(true)
+       
 
         //adiciona titulo 
         newTask.querySelector('.task-title').textContent = taskTitle
