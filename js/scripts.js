@@ -49,7 +49,7 @@ function completeTask(task){
     
     const taskComplete = task.parentNode
 
-    taskComplete.classList.toggle('done')
+    taskComplete.classList.toggle('done') //toggle: se existe a classe, ele remove. Se não existe a classe, ele adiciona
 }
 
 // evento de adicionar tarefa
