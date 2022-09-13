@@ -117,8 +117,10 @@ ion-icon,  .task-title{
     display: none;
 }
 
+
 #task-list li.done {
     background-color: #34073D;
     color: white;
     text-decoration: line-through;
 }
+
